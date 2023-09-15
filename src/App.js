@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/App.css';
 import Header from './components/Header';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <div className="background-gradient"></div>
       </div>
       <Header />
+      <Content />
     </div>
   );
 }
