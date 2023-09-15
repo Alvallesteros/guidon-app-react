@@ -9,7 +9,7 @@
 
 html, body {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   font-family: "Roboto", "Chivo", "Helvetica", sans-serif;
   font-size: 15px;
   margin: 0;
@@ -17,8 +17,9 @@ html, body {
 }
 
 .App {
-  height: 100%;
-  width:  100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100%; 
 }
 
 .section {
@@ -40,6 +41,7 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 #background-container .background-image {
