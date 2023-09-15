@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Chivo:100,300,400,500,700,900|Merriweather:100,300,400,500,700,900|Roboto:100,300,400,500,700,900");
+
+* {
+  position: relative;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", "Chivo", "Helvetica", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  background-color: var(--gdn-blck);
+}
+
+.section {
+  z-index: 50;
+}
+
+.section .center-container {
+  margin: auto;
+  width: 90%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
 }

@@ -1,0 +1,44 @@
+/**********************
+    HEADER
+**********************/
+
+#header .center-container {
+    display: flex;
+}
+
+.left-header #logo-container img {
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 25em;
+}
+
+#header .center-container #navigation-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 20em;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#header .navigation-link {
+    font-family: "Chivo", "Roboto", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9em;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+#header .navigation-link:hover {
+    opacity: 1;
+}
+
+#header .center-container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    align-items: center;
+    justify-content: space-between;
+}
