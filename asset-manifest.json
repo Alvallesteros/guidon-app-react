@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/guidon-app-react/static/css/main.04340160.css",
-    "main.js": "/guidon-app-react/static/js/main.969585d5.js",
+    "main.js": "/guidon-app-react/static/js/main.997a19bd.js",
     "static/js/787.4eab6a7f.chunk.js": "/guidon-app-react/static/js/787.4eab6a7f.chunk.js",
     "index.html": "/guidon-app-react/index.html",
     "main.04340160.css.map": "/guidon-app-react/static/css/main.04340160.css.map",
-    "main.969585d5.js.map": "/guidon-app-react/static/js/main.969585d5.js.map",
+    "main.997a19bd.js.map": "/guidon-app-react/static/js/main.997a19bd.js.map",
     "787.4eab6a7f.chunk.js.map": "/guidon-app-react/static/js/787.4eab6a7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04340160.css",
-    "static/js/main.969585d5.js"
+    "static/js/main.997a19bd.js"
   ]
 }
