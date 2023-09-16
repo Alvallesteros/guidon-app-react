@@ -34,7 +34,11 @@ function App() {
     },
     {
         title: "From the Hill to EDSA: 37 Years since the 1986 Revolution",
+<<<<<<< HEAD
         img: "/assets/imgs/edsa.png",
+=======
+        img: "/assetsassets/imgs/edsa.png",
+>>>>>>> 5d5480b30df90f4527170d4419d117bea4cc2f84
         link: "https://interactive.theguidon.com/2023/02/from-the-hill-to-edsa",
         date: "February 2023",
         bylines: "Zoey C. Atillo, Lancelot Batara, Joaquin Baang, Enzo Bello, Eloiza Mariano, Aren Teodoro, and Khaela C. Vijar",
