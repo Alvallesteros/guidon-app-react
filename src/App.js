@@ -10,7 +10,7 @@ function App() {
   const Data = [
     {
         title: "One Big Adventure",
-        img: "assets/imgs/one-big-adventure.png",
+        img: "./assets/imgs/one-big-adventure.png",
         link: "https://interactive.theguidon.com/2023/08/one-big-adventure/",
         date: "August 2023",
         bylines: "Reisha Jamola and Therese Alexandria Garcia",
@@ -18,7 +18,7 @@ function App() {
     },
     {
         title: "Year-End Gallery",
-        img: "assets/imgs/yearend_gal.png",
+        img: "./assets/imgs/yearend_gal.png",
         link: "https://interactive.theguidon.com/2023/05/year-end-gallery",
         date: "May 2023",
         bylines: "The Photos Staff",
@@ -26,7 +26,7 @@ function App() {
     },
     {
         title: "Dead End: The Commuter Experience",
-        img: "assets/imgs/deadend.png",
+        img: "./assets/imgs/deadend.png",
         link: "https://interactive.theguidon.com/2023/05/dead-end",
         date: "May 2023",
         bylines: "Ariana Enriquez and Reign Iris Centeno",
@@ -34,7 +34,7 @@ function App() {
     },
     {
         title: "From the Hill to EDSA: 37 Years since the 1986 Revolution",
-        img: "assets/imgs/edsa.png",
+        img: "./assets/imgs/edsa.png",
         link: "https://interactive.theguidon.com/2023/02/from-the-hill-to-edsa",
         date: "February 2023",
         bylines: "Zoey C. Atillo, Lancelot Batara, Joaquin Baang, Enzo Bello, Eloiza Mariano, Aren Teodoro, and Khaela C. Vijar",
@@ -42,7 +42,7 @@ function App() {
     },
     {
         title: "A House Divided",
-        img: "assets/imgs/house_divided.png",
+        img: "./assets/imgs/house_divided.png",
         link: "https://interactive.theguidon.com/2022/10/a-house-divided",
         date: "October 2022",
         bylines: "Jana O. Ang, Biel L.B. Arevalo, Felicity C. Santos, Pioee B. Bassig, Clayton Dejillas, Maxine S. Kang, Aidan Bernales, and Jacob Tambunting",
@@ -50,7 +50,7 @@ function App() {
     },
     {
         title: "Buried with Lies",
-        img: "assets/imgs/lies.png",
+        img: "./assets/imgs/lies.png",
         link: "https://interactive.theguidon.com/2022/09/buried-with-lies",
         date: "September 2022",
         bylines: "Simone Martinez and Derick M. Gabrillo",
@@ -58,7 +58,7 @@ function App() {
     },
     {
         title: "Frozen in Time: Stories of the Ateneo Campus",
-        img: "assets/imgs/frozen-in-time.png",
+        img: "./assets/imgs/frozen-in-time.png",
         link: "https://interactive.theguidon.com/2022/08/frozen-in-time",
         date: "August 2022",
         bylines: "Enzo Lagamon, Ena Algopera, Jia Parma, Andrea Mikaela Llanes, Tatiana L. Maligro, George D. Kho, and Kiara Florencia Rodriguez",
@@ -66,7 +66,7 @@ function App() {
     },
     {
         title: "Foreword 2022",
-        img: "assets/imgs/Foreword2022.jpg",
+        img: "./assets/imgs/Foreword2022.jpg",
         link: "http://interactive.theguidon.com/2022/04/foreword-2022/",
         date: "April 2022",
         bylines: "Ivan Lewis C. Bueno, Kiana Lane R. Altoveros, and Monica Julianne C. Gallardo",
@@ -74,7 +74,7 @@ function App() {
     },
     {
         title: "YEP: Year in Visual Stories",
-        img: "assets/imgs/creativity.png",
+        img: "./assets/imgs/creativity.png",
         link: "https://interactive.theguidon.com/2021/10/year-in-visual-stories",
         date: "October 2021",
         bylines: "Design Cluster",
@@ -82,7 +82,7 @@ function App() {
     },
     {
         title: "Off Tangent",
-        img: "assets/imgs/off-tangent.png",
+        img: "./assets/imgs/off-tangent.png",
         link: "https://interactive.theguidon.com/2021/07/off-tangent",
         date: "July 2021",
         bylines: "Russell Louis Ku, Eala Julienne Nolasco, Adrian Jesper C. Cea, Christianna P. Lugod, and Paolo Buenaseda",
@@ -90,7 +90,7 @@ function App() {
     },
     {
         title: "A Geography of Goodbyes",
-        img: "assets/imgs/geography-goodbyes.png",
+        img: "./assets/imgs/geography-goodbyes.png",
         link: "https://interactive.theguidon.com/2021/05/katipunan-casualties",
         date: "May 2021",
         bylines: "Teo A. Ricaforte, Justin Ginete, Dani Capinding, Caitlin Anne Young, Ann Domingo, Therese Hipol, Arnold Paguio, Mikaela Llanes, Zoe Andin, and Patricia Villoria",
@@ -98,7 +98,7 @@ function App() {
     },
     {
         title: "Underpowered",
-        img: "assets/imgs/underpowered.png",
+        img: "./assets/imgs/underpowered.png",
         link: "https://interactive.theguidon.com/2021/04/underpowered",
         date: "April 2021",
         bylines: "Kris M. Fetiza, Derick M. Gabrillo, Zachary C. Gonzales",
@@ -106,7 +106,7 @@ function App() {
     },
     {
         title: "Year in Quarantine",
-        img: "assets/imgs/year-in-quarantine.png",
+        img: "./assets/imgs/year-in-quarantine.png",
         link: "https://interactive.theguidon.com/2021/03/year-in-quarantine/",
         date: "March 2021",
         bylines: "The GUIDON Photos Staff AY 2020-2021, Anna Pineda, Gerard Ma, Yanna Estrellado",
@@ -114,7 +114,7 @@ function App() {
     },
     {
         title: "On the frontlines",
-        img: "assets/imgs/on-the-frontlines.png",
+        img: "./assets/imgs/on-the-frontlines.png",
         link: "https://interactive.theguidon.com/2021/01/on-the-frontlines/",
         date: "January 2021",
         bylines: "Jean Mangaluz, Malaika Paculan",
@@ -122,7 +122,7 @@ function App() {
     },
     {
         title: "Under Fire",
-        img: "assets/imgs/under-fire.png",
+        img: "./assets/imgs/under-fire.png",
         link: "http://interactive.theguidon.com/2020/07/under-fire/",
         date: "July 2020", 
         bylines: "Pioee B. Bassig, Derick M. Gabrillo and George Kho",
@@ -130,7 +130,7 @@ function App() {
     },
     {
         title: "The GUIDON Online",
-        img: "assets/imgs/guidon-online.png",
+        img: "./assets/imgs/guidon-online.png",
         link: "http://interactive.theguidon.com/2020/06/tgdn-90th",
         date: "June 2020",
         bylines: "Jasy C. Cruz, Enrique B. Halili",
@@ -138,7 +138,7 @@ function App() {
     },
     {
         title: "Catching light: Faces of hope in Marawi City",
-        img: "assets/imgs/marawi.jpg",
+        img: "./assets/imgs/marawi.jpg",
         link: "https://gdn-marawi.theguidon.com/",
         date: "January 2020",
         bylines: "Danielle R. Garcia, Alithea C. Soriano",
@@ -146,7 +146,7 @@ function App() {
     },
     {
         title: "Santa's Real Evles",
-        img: "assets/imgs/santa-elves.png",
+        img: "./assets/imgs/santa-elves.png",
         link: "http://interactive.theguidon.com/2019/12/christmas-interactive/",
         date: "December 2019",
         bylines: "Keziah Maru Z. Pasion, Andrea Tibayan, Andrea Mikaela Llanes",
@@ -154,7 +154,7 @@ function App() {
     },
     {
         title: "Strength and Resolve: Tales of Recovery in the Islamic City",
-        img: "assets/imgs/strength-resolve.jpg",
+        img: "./assets/imgs/strength-resolve.jpg",
         link: "http://interactive.theguidon.com/2018/05/marawi/#/",
         date: "May 2018",
         bylines: "Liam C. Liu",
@@ -162,7 +162,7 @@ function App() {
     },
     {
         title: "The AEWU Contention",
-        img: "assets/imgs/AEWU.jpg",
+        img: "./assets/imgs/AEWU.jpg",
         link: "http://interactive.theguidon.com/2018/01/aewu-contention/",
         date: "January 2018",
         bylines: "Michelle D. Abad, Thea Unson",
@@ -170,7 +170,7 @@ function App() {
     },
     {
         title: "A Year of 'Dutertismo'",
-        img: "assets/imgs/dutertismo.jpg",
+        img: "./assets/imgs/dutertismo.jpg",
         link: "http://interactive.theguidon.com/2017/07/duterte-promises/",
         date: "July 2017",
         bylines: "Liam C. Lu",
@@ -178,7 +178,7 @@ function App() {
     },
     {
         title: "Execution Day",
-        img: "assets/imgs/execution-day.jpg",
+        img: "./assets/imgs/execution-day.jpg",
         link: "http://interactive.theguidon.com/2017/04/execution-day/",
         date: "April 2017", 
         bylines: "JC A. Beltran, Ina M. Morales, Janelle Paris",
@@ -186,7 +186,7 @@ function App() {
     },
     {
         title: "The Road to Sanggunian",
-        img: "assets/imgs/sanggu-elections.jpg",
+        img: "./assets/imgs/sanggu-elections.jpg",
         link: "http://interactive.theguidon.com/2016/10/sanggu-elections/",
         date: "October 2016",
         bylines: "Andrea L. Taguines",
@@ -194,14 +194,14 @@ function App() {
     },
     {
         title: "Re-visioning History",
-        img: "assets/imgs/re-visioning-history.jpg",
+        img: "./assets/imgs/re-visioning-history.jpg",
         link: "http://interactive.theguidon.com/2016/09/re-visioning-history",
         date: "September 2016",
         bylines: "Manuel M. Aldeguer"
     },
     {
         title: "Silenced Voices",
-        img: "assets/imgs/silenced-voices.jpg",
+        img: "./assets/imgs/silenced-voices.jpg",
         link: "http://interactive.theguidon.com/2016/09/silenced-voices",
         date: "September 2016",
         bylines: "Nio Atrigenio",
@@ -209,7 +209,7 @@ function App() {
     },
     {
         title: "Finding your Footing: A guide to accreditation",
-        img: "assets/imgs/organization-accreditation.jpg",
+        img: "./assets/imgs/organization-accreditation.jpg",
         link: "http://interactive.theguidon.com/2016/08/organization-accreditation/",
         date: "August 2016",
         bylines: "Joaquin B. Jacinto, Jairus I. Paul",
