@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '/css/App.css';
-import Header from '/components/Header';
-import Content from '/components/Content';
+import './css/App.css';
+import Header from './components/Header';
+import Content from './components/Content';
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
     },
     {
         title: "From the Hill to EDSA: 37 Years since the 1986 Revolution",
-        img: "/assetsassets/imgs/edsa.png",
+        img: "/assets/imgs/edsa.png",
         link: "https://interactive.theguidon.com/2023/02/from-the-hill-to-edsa",
         date: "February 2023",
         bylines: "Zoey C. Atillo, Lancelot Batara, Joaquin Baang, Enzo Bello, Eloiza Mariano, Aren Teodoro, and Khaela C. Vijar",
