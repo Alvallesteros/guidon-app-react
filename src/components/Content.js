@@ -10,6 +10,10 @@ function Content(props) {
     const showDesc = (x) => {
         setSelectedItem(x);
         props.onData(x)
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
     };
 
     return ( 
