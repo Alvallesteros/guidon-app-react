@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/guidon-app-react/static/css/main.04340160.css",
+    "main.js": "/guidon-app-react/static/js/main.bb4abd7b.js",
+    "static/js/787.3de84f09.chunk.js": "/guidon-app-react/static/js/787.3de84f09.chunk.js",
+    "index.html": "/guidon-app-react/index.html",
+    "main.04340160.css.map": "/guidon-app-react/static/css/main.04340160.css.map",
+    "main.bb4abd7b.js.map": "/guidon-app-react/static/js/main.bb4abd7b.js.map",
+    "787.3de84f09.chunk.js.map": "/guidon-app-react/static/js/787.3de84f09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04340160.css",
+    "static/js/main.bb4abd7b.js"
+  ]
+}
