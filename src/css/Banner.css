@@ -1,0 +1,122 @@
+#banner-container .content-header {
+    text-align: center;
+    font-family: "Chivo", "Roboto", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    opacity: 0.25;
+    color: white;
+}
+
+@media screen and (min-width: 900px) {
+    #banner-container .inner-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #banner-container .inner-container .image-container {
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: calc(50% - 10px);
+        flex-basis: calc(50% - 10px);
+    } 
+}
+
+
+#banner-container .inner-container .image-container .preview {
+    width: 100%;
+    padding-bottom: 50%;
+    display: block;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+    background-position: top center;
+    background-color: #1e1e1e;
+}
+
+@media screen and (min-width: 900px) {
+    .desc-container {
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: calc(50% - 10px);
+        flex-basis: calc(50% - 10px);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 899px) {
+    .desc-container {
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.info-container .date {
+    opacity: 0.25;
+    text-transform: uppercase;
+    font-family: "Chivo", "Roboto", "Helvetica", sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-bottom: 0.1em;
+}
+
+.info-container .title {
+    font-family: "Merriwether", "Tiempos Text", "Garamond", serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.info-container .bylines {
+    opacity: 0.5;
+    margin-top: 0.1em;
+    font-size: 0.9em;
+}
+
+.info-container .description {
+    margin-top: 1em;
+    line-height: 1.75em;
+    font-size: 0.9em;
+}
+
+.btn-container {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-container * {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-container .btn-fb, .btn-container .btn-twtr {
+    width: 1.5em;
+    height: 1.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1em;
+}
+
+.btn-container .btn-view {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Roboto", "Chivo", "Helvetica", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 0.9em;
+    line-height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    padding-left: 3em;
+    padding-right: 1em;
+    background-repeat: no-repeat;
+    background-position: 0.8em center;
+    background-size: 1.5em;
+}

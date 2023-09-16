@@ -14,7 +14,7 @@ function Header() {
                     </a>
                 </div>
                 <div className="right-header" id="navigation-container">
-                    <a className="navigation-link" href="#/">Home</a>
+                    <a className="navigation-link" href="/">Home</a>
                     <a className="navigation-link" href="#/about/">About</a>
                     <a className="navigation-link" href="https://theguidon.com">TheGuidon.com</a>
                 </div>
