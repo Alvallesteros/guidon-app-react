@@ -9,12 +9,12 @@ function Header() {
         <div className="section" id="header">
             <div className="center-container">
                 <div className="left-header">
-                    <a id="logo-container" href="#/">
+                    <a id="logo-container" href="/guidon-app-react">
                         <img src={process.env.PUBLIC_URL + logo} alt=""/>
                     </a>
                 </div>
                 <div className="right-header" id="navigation-container">
-                    <a className="navigation-link" href="/">Home</a>
+                    <a className="navigation-link" href="/guidon-app-react">Home</a>
                     <a className="navigation-link" href="https://interactive.theguidon.com/#/about">About</a>
                     <a className="navigation-link" href="https://theguidon.com">TheGuidon.com</a>
                 </div>
